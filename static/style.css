@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.yontainer {
+    min-height: 400px;
+    min-width: 50%;
+    margin: 5% 20%;
+    padding: 5%;
+    border: 2px dotted red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.yow {
+    justify-content: space-between;
+}
+
+.yolumn {
+    width:  70%;
+}
