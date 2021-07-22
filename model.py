@@ -22,11 +22,11 @@ class User():
         is_valid = True
     # name - 1-255 characters
         if len(data['name']) < 1:
-            flash('All fields required.')
+            flash('Name required.')
             is_valid = False
     # comment - at least 1 character
-        if len(data['comment']) < 1 or len(data['comment']) == 0:
-            flash('All fields required.')
+        if len(data['comment']) < 1:
+            flash('Comment required.')
             is_valid = False
 
         return is_valid

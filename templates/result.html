@@ -9,26 +9,18 @@
     <title>Result</title>
 </head>
 <body>
-    <div class="yontainer">
+    <div class="yontainer justify-content-center">
         <!-- Submitted Info -->
-        <h2>Submitted Info</h2>
         <!-- result -->
-        <div class="result-row">
+        <div class="yolumn">
+            <h2>Submitted Info</h2>
             <p>Name: {{session['name']}}</p>
-        </div>
-        <!-- resutl -->
-        <div class="result-row">
             <p>Dojo Location: {{session['location']}}</p>
-        </div>
-        <!-- result -->
-        <div class="result-row">
             <p>Favorite Language: {{session['language']}}</p>
-        </div>
-        <!-- result -->
-        <div class="result-row">
             <p>Comment: {{session['comment']}}</p>
         </div>
         <!-- go back button -->
+        <a href="/">Go Back</a>
     </div>
 </body>
 </html>
